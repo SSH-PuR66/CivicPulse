@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}CivicPulse{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header role="banner">
+        <h1>CivicPulse</h1>
+        <p>Live U.S. Census data dashboard</p>
+    </header>
+    <main id="main" role="main">
+        {% block content %}{% endblock %}
+    </main>
+    <footer role="contentinfo">
+        <p>Data: <a href="https://www.census.gov/data/developers.html">U.S. Census Bureau ACS 5-Year</a></p>
+    </footer>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>
