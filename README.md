@@ -127,7 +127,7 @@ Validating code linting, unit tests with pytest, and Docker builds on every push
 
 <div align="center">
 
-<img src="./assets/gatito.gif" alt="Pixel cat animation" width="260" />
+<img src="./assets/hacker.gif" alt="Computer Typing hehe" width="260" />
 
 ### Built for secure public-data telemetry, accessibility-first design, and reproducible deployment.
 
