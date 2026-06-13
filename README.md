@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="./gatito.gif" alt="Pixel cat animation" width="420" />
+<img src="./assets/gatito.gif" alt="Pixel cat animation" width="420" />
 
 # CivicPulse
 
 ### Public Demographic Data Dashboard  
 #### FastAPI • Docker • Chart.js • CI/CD • WCAG Accessibility
 
-<img src="./238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star divider" width="140" />
+<img src="./assets/238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star divider" width="140" />
 
 </div>
 
@@ -15,7 +15,7 @@
 
 ## Objective
 
-<img align="right" src="./238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="120" />
+<img align="right" src="./assets/238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="120" />
 
 The CivicPulse project aimed to establish a controlled development environment for ingesting, processing, and visualizing real-world public demographic data. The primary focus was to build a secure, containerized dashboard that fetches data from the U.S. Census Bureau ACS 5-Year API, caches the results in memory via a custom Time-To-Live (TTL) service, and displays demographic telemetry using dynamic visualization tools. This practical experience was designed to deepen understanding of API service integration, accessibility compliance (WCAG), containerized deployments, and continuous integration workflows.
 
@@ -25,7 +25,7 @@ The CivicPulse project aimed to establish a controlled development environment f
 
 ### Skills Learned
 
-<img src="./gatito.gif" alt="Pixel cat animation" width="180" align="right" />
+<img src="./assets/gatito.gif" alt="Pixel cat animation" width="180" align="right" />
 
 - Integration of government-level public web APIs with custom asynchronous client implementations.
 - Design of highly accessible frontend interfaces adhering to WCAG 2.1 AA guidelines (using skip links, semantic landmarks, and ARIA live regions).
@@ -39,7 +39,7 @@ The CivicPulse project aimed to establish a controlled development environment f
 
 ### Tools Used
 
-<img src="./238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star" width="110" align="right" />
+<img src="./assets/238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star" width="110" align="right" />
 
 - FastAPI for building high-performance asynchronous RESTful service endpoints.
 - Chart.js for compiling and rendering interactive comparative graphs of population and income.
@@ -55,9 +55,9 @@ The CivicPulse project aimed to establish a controlled development environment f
 
 <div align="center">
 
-<img src="./238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="90" />
-<img src="./238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star" width="90" />
-<img src="./238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="90" />
+<img src="./assets/238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="90" />
+<img src="./assets/238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star" width="90" />
+<img src="./assets/238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="90" />
 
 </div>
 
@@ -91,7 +91,7 @@ docker compose up --build
 
 ### 3. API Integration and In-Memory Caching
 
-<img src="./gatito.gif" alt="Pixel cat animation" width="160" align="right" />
+<img src="./assets/gatito.gif" alt="Pixel cat animation" width="160" align="right" />
 
 The service layer fetches demographic telemetry from the U.S. Census Bureau ACS 5-Year API and caches datasets locally with a strict TTL boundary to avoid rate limits.
 
@@ -103,7 +103,7 @@ The service layer fetches demographic telemetry from the U.S. Census Bureau ACS 
 
 ### 4. Interactive Data Visualization
 
-<img src="./238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star" width="120" align="right" />
+<img src="./assets/238201079-e379a33a-b428-4385-b44f-3da16e7bac9f.gif" alt="Animated star" width="120" align="right" />
 
 The UI uses Chart.js to render state comparisons for population distribution and median household income while populating WCAG-compliant tabular components.
 
@@ -115,7 +115,7 @@ The UI uses Chart.js to render state comparisons for population distribution and
 
 ### 5. Automated CI/CD Pipelines
 
-<img src="./238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="120" align="right" />
+<img src="./assets/238200838-76036311-c8ea-4247-8bf8-a7077623036c.gif" alt="Seal animation" width="120" align="right" />
 
 Validating code linting, unit tests with pytest, and Docker builds on every push to main.
 
@@ -127,7 +127,7 @@ Validating code linting, unit tests with pytest, and Docker builds on every push
 
 <div align="center">
 
-<img src="./gatito.gif" alt="Pixel cat animation" width="260" />
+<img src="./assets/gatito.gif" alt="Pixel cat animation" width="260" />
 
 ### Built for secure public-data telemetry, accessibility-first design, and reproducible deployment.
 
